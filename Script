@@ -220,7 +220,7 @@ Section:AddButton("Test Sequence", function()
     end
 end)
 
-Library.Items.TeleportSpeed = Section:AddSlider("Teleport Speed", 20, 500, 50, {rounded = true}, function() end)
+Library.Items.TeleportSpeed = Section:AddSlider("Teleport Speed", 20, 500, 500, {rounded = true}, function() end)
 
 -- Save
 
